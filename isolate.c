@@ -1091,7 +1091,6 @@ box_keeper(void)
   bzero(&sa, sizeof(sa));
   sa.sa_handler = signal_int;
   sigaction(SIGINT, &sa, NULL);
-  signal(SIGPIPE, SIG_IGN);
 
   gettimeofday(&start_time, NULL);
   ticks_per_sec = sysconf(_SC_CLK_TCK);
