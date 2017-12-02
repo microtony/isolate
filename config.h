@@ -1,5 +1,5 @@
-#ifndef __AUTOCONF_H__
-#define __AUTOCONF_H__
+#ifndef __ISOLATE_CONFIG_H__
+#define __ISOLATE_CONFIG_H__
 
 /* A directory under which all sandboxes are created. */
 #define CONFIG_ISOLATE_BOX_DIR "/tmp/box"
@@ -12,4 +12,4 @@
 /* Root of the cgroup hierarchy. */
 #define CONFIG_ISOLATE_CGROUP_ROOT "/sys/fs/cgroup"
 
-#endif /* __AUTOCONF_H__ */
+#endif /* __ISOLATE_CONFIG_H__ */
